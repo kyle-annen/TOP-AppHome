@@ -9,7 +9,7 @@ header {
 
 nav {
   text-align: justify;
-  max-width: 980px;
+  max-width: 1000px;
   margin: 0 auto;
   height: 44px;
   
@@ -47,16 +47,18 @@ nav ul .stretch {
 }
 
 .hero-heading {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
 
 .hero {
   background-image: url("hero.jpg");
-  width: 1000px;
+  max-width: 1000px;
   height: 652px;
   margin: 0 auto;
+  background-size: cover;
+  background-position: 50% 0;
 }
 
 .hero-font-large {
