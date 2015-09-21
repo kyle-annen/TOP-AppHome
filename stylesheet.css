@@ -4,23 +4,22 @@ body {
 
 header {
   background-color: rgba(10, 10, 10, 0.86);
-  margin: -16px -8px -5px -8px;
-  padding-top: 5px;
+  margin: -16px -8px 0 -8px;
 } 
 
 nav {
   text-align: justify;
   max-width: 1000px;
   margin: 0 auto;
-  height: 30px;
+  height: 44px;
+  
 }
 
 nav ul {
   list-style-type: none;
-  color: white;
+  color: lightgrey;
   text-align: justify;
-  margin: 15px 30px -10px 30px;
-  padding: 0;
+  margin-right: 30px;
 }
 
 nav ul li {
@@ -28,8 +27,9 @@ nav ul li {
   font-family: helvetica, sans-serif;
   font-weight: lighter;
   font-size: 14px;
-  font-feat
   text-align: justify;
+  vertical-align: top;
+  line-height: 47px;
 }
 
 .apple-icon {
@@ -41,7 +41,8 @@ nav ul li {
 nav ul .stretch {
   display: inline-block;
   width: 100%;
-         *display: inline;
-         zoom: 1;
-         height: 0px;
+  *display: inline;
+  zoom: 1;
+  height: 0px;
+}
 
