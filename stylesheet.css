@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+}
+
+header {
+  background-color: rgba(10, 10, 10, 0.86);
+  margin: -16px -8px -5px -8px;
+  padding-top: 5px;
+} 
+
+nav {
+  text-align: justify;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  color: white;
+  text-align: justify;
+  margin: 15px 30px -10px 30px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  font-family: helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  font-feat
+  text-align: justify;
+}
+
+.apple-icon {
+  width: 20px;
+  clear: all;
+}
+
+
+nav ul .stretch {
+  display: inline-block;
+  width: 100%;
+         *display: inline;
+         zoom: 1;
+         height: 0px;
+
